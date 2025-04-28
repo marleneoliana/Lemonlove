@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    
+}   
+h2{
+    font-size: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    transform: translateX(-50%);
+    animation-duration: 1s;
+    animation-name:s;
+    
+}
+@keyframes s{
+    from{
+        margin-left: 90%;
+
+    }
+    to{
+        margin-right: 50%;
+    }
+}
+h1{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;   
+    transform: translateX(-50%);
+    
+}
+nav a:hover{
+    background-color: #00631f;
+    color: darkkhaki;
+    scale: 120%;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px rgb(0, 66, 16);
+}
+
+
+.button{
+    align-items:center ;
+    justify-content: center;
+    position: absolute;
+    left: 46.3%;
+    top: 55%;
+    transform: scale(1.5);
+    padding: 15px 20px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(228, 255, 107);
+    box-shadow: 0px 0px 5px rgb(219, 255, 110);
+    color: #00631f;
+    z-index: 1;
+}
+
+.button:hover{
+    background-color: #4f7251;
+    color: darkkhaki;
+    scale: 120%;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px rgb(0, 66, 16);
+}
+
+.box div {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 0;
+   size: 00px;
+
+}
+.box div:nth-child(1){
+    top: 00%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(2){
+    top: 00%;
+    left: 100%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(3){
+    top: 00%;
+    left: 93%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(4){
+    top: 00%;
+    left: 50%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(5){
+    top: 00%;
+    left: 25%;
+    animation: animate 13s linear infinite;
+}
+.box div:nth-child(6){
+    top: 00%;
+    left: 80%;
+    animation: animate 8s linear infinite;
+}
+.box div:nth-child(7){
+    top: 11%;
+    left: 1%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(8){
+    top: 6%;
+    left: 52%;
+    animation: animate 5s linear infinite;
+} 
+.box div:nth-child(9){
+    top: 4%;
+    left: 45%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(10){
+    top: 10%;
+    left: 27%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(11){
+    top: 10%;
+    left: 13%;
+    animation: animate 3s linear infinite;
+}
+.box div:nth-child(12){
+    top: 10%;
+    left: 87%;
+    animation: animate 8s linear infinite;
+}
+.box div:nth-child(13){
+    top: 10%;
+    left: 23%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(14){
+    top: 10%;
+    left: 35%;
+    animation: animate 19s linear infinite;
+}
+.box div:nth-child(15){
+    top: 10%;
+    left: 17%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(16){
+    top: 10%;
+    left: 52%;
+    animation: animate 2s linear infinite;
+}
+.box div:nth-child(17){
+    top: 10%;
+    left: 78%;
+    animation: animate 3s linear infinite;
+}
+.box div:nth-child(18){
+    top: 10%;
+    left: 70%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(19){
+    top: 10%;
+    left: 2%;
+    animation: animate 21s linear infinite;
+}
+.box div:nth-child(20){
+    top: 10%;
+    left: 17%;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform:scale(1)translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(0.5) translateY(600px) rotate(0deg);
+        opacity: 0;
+    
+    }
+}

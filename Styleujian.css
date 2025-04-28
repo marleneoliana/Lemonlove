@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+ }
+img{
+    position:relative;
+    height: 90px;
+    width:100px;
+
+}
+header {
+    display: flex;
+    top:0;
+    width: 100%;
+    background-color: darkgreen;
+    justify-content: center;
+    position: fixed;
+ }
+nav{
+    padding: 20px;
+}
+nav a{
+    padding: 25px 25px;
+    text-align: center;
+    color: #FED766;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav a:hover{
+    background-color:#f0f637;
+    color: #044d12;
+    box-shadow: 0px 0px 5px rgb(232, 250, 100);
+    transition:0.5s;
+    filter:drop-shadow(0px 0px 5px rgb(255, 246, 161));
+    scale: 130%;
+}
+.home{
+    height: 800px;
+    background-color: rgb(137, 3, 3);
+}
+.about{
+    height:800px
+    
+}
+.Produk{
+    height: 800px;
+    background-color: aliceblue;
+}
