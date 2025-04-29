@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
  }
+
 header {
     display: flex;
     top:0;
@@ -12,7 +13,6 @@ header {
     position: fixed;
     z-index: 3;
  }
-
 nav a{
     float: left;
     text-align: center;
@@ -31,36 +31,36 @@ nav a:hover{
     scale:105%;
     text-align: center;
 }
+
+
+
 section.home{
     background-color: #376baf;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 620px;
+    height: 650px;
     text-align: center;
     display: flex;
     justify-content: center;
-    padding-top: 200px;
+    padding-top: 300px;
+    padding-left: 10px;
 }
-section.home .boxy {
-    margin: auto;
+section.home .boxy {  
     display: flex;
     text-align: center;
     padding:10px 15px;
     align-items: center;
     font-weight: bolder;
+    transform: translateX(-600px);
     width: 100px;
     height: 100px;
     font-size: larger;
-    background-color:#a3a3a3 ;
+    background-color:#d4d406 ;
     color: #ffffff;
-    border: #ffffff 3px;
     border-radius: 20px;
-    transform: translateX(-700%);
-    position: flex;
     border-radius: 100%;
     position: absolute;
-
 }
 section.home .boxy h1{
     font-size: 80px;
@@ -69,32 +69,35 @@ section.home .boxy h1{
 section.home .boxy h3{
     font-size: 25px;
     transform: translateY(-95%);
-    
 }
 
-section.home .ad img{
-    background-color: #3652a6;
-    border-radius: 100%;
+
+section.home .ad{
+    display: flex;
     align-items: center;
-    position: flex;
-    width: 620px;
-    height: 620px;
-    transform: translateX(115%);
+    transform: translateY(-30%);
+}
+section.home .ad img{
+    background-color: #344d99;
+    box-shadow: 0px 0px 20px rgb(174, 180, 0);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    width: 520px;
+    height: 520px;
+    left: 100px;
+    transform: translatex(75%);
     z-index: 0;
 }
-
-
 section.home .ad img:hover{
     background-color: #3162ab;
-    color: rgb(225, 255, 0);
     scale: 105%;
     transition: 0.5s;
     box-shadow: 0px 0px 90px rgb(0, 0, 0);
-
 }
 
 
-section.home button{
+section.home .button1 button{
     color:#6dcacf;
     float: left;
     font-family: monospace;
@@ -104,8 +107,24 @@ section.home button{
     font-weight: bolder;
     transform: scale(1);
     padding: 10px 20px;
-    left: 46%;
-    top: 30%;
+    left: 40%;
+    top: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(212, 255, 0);  
+    background-color:#1f6e8d;
+}
+section.home .button2 button{
+    color:#6dcacf;
+    float: left;
+    font-family: monospace;
+    position: absolute;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    transform: scale(1);
+    padding: 10px 20px;
+    left: 30%;
+    top: 50%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(212, 255, 0);  
     background-color:#1f6e8d;
@@ -133,12 +152,12 @@ section.home button:hover{
 }
 .box div:nth-child(2){
     top: 00%;
-    left: 100%;
+    left: 80%;
     animation: animate 7s linear infinite;
 }
 .box div:nth-child(3){
     top: 00%;
-    left: 93%;
+    left: 83%;
     animation: animate 9s linear infinite;
 }
 .box div:nth-child(4){
@@ -238,23 +257,10 @@ section.home button:hover{
     }
 }
 
-
-
-
-
-
-.about{
-    height:8000px
-    
-}
-
-
-
-
-
-
   
-  
+---------------------------
+
+
 section.Produk{
     height: 8000px;
     background-color: aliceblue;
@@ -264,42 +270,83 @@ section.Produk .container{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
+    padding-top: 100px;
+
 }
 section.Produk .container .card{
     width:400px; 
-    margin:10px; 
-    height: 300px; 
-    padding: 10px 20px; 
+    margin:50px; 
+    height: 401px; 
+    padding: 10px; 
     text-align: center; 
     border-radius: 20px 20px 20px 20px;
     background-color:#4b92ef;
     box-shadow:0px 0px 20px #0C3B78;
     color: aliceblue;
 }
-section .Produk .card .name{
-    font-family:'impact';
-}
-section.Produk .card .desc{
-    font-family: Caveat;
-
-}
 section.Produk .container .card img{
     width: 200px;
     height: 200px;
-    overflow: visible;
+    border-radius: 10px;
+    
+    
     
 }
-section.Produk .container .card button{
-    color:#ffee00;
+section.Produk .container .card .button3 button{
+    color:#6dcacf;
     float: left;
     font-family: monospace;
     position: absolute;
     outline: none;
     border: none;
     font-weight: bolder;
+    transform: scale(1);
+    padding: 10px 20px;
+    transform: translate(-50%);
+    margin: auto;
     border-radius: 20px;
-    box-shadow: 0px 0px 5px rgb(212, 255, 0);  
+    box-shadow: 0px 0px 10px rgb(212, 255, 0);  
     background-color:#1f6e8d;
-
 }
+section .Produk .card .name{
+    font-family:'impact';
+}
+section.Produk .card .desc{
+    font-family: Caveat;
+    font-size: 20px;
+}
+
+
+section.Produk .container .card:hover img{
+    scale: 120%;
+    transform:translatey( -30%) ; 
+    border-radius: 10px;
+    transition: 0.2s;
+    overflow: visible;
+}
+section.Produk .container .card:hover .desc{
+    scale: 101%;
+    transition: 0.2s;
+    transform: translatey(-80%);
+}
+section.Produk .container .card:hover .name{
+    scale: 190%;
+    font-weight: bolder;
+    transform:translatey( -130%) ; 
+    transition: 0.2s;
+    overflow: visible;
+}
+section.Produk .container .card:hover .price{
+    scale: 170%;
+    transform:translatey( -130%) ; 
+    transition: 0.2s;
+    overflow: visible;
+}
+section.Produk .container .card:hover .button3{
+    scale: 130%;
+    transform: translateY(190%);
+    transition: 0.2s;
+    overflow: visible;
+    align-self: center;
+}
+
