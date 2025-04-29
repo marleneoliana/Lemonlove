@@ -2,8 +2,44 @@ body{
     margin: 0;
     padding: 0;
     display:flex;
+    background-color: #0C3B78;
     
 }   
+header{
+    display: flex;
+    top:0;
+    width: 100%;
+    height: 60px;
+    background-color: #0C3B78;
+    justify-content: space-between;
+    position: fixed;
+    color: #ffffff;
+}
+nav{
+    padding: 20px;
+}
+nav a{
+    padding: 25px 25px;
+    text-align: center;
+    color: #05642b;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+}
+nav a:hover{
+    background-color:#eeff71;
+    color: #0f5c06;
+    box-shadow: 0px 0px 5px rgb(123, 132, 0);
+    transition:0.8s;
+    filter:drop-shadow(0px 0px 5px rgb(134, 120, 0));
+    scale: 130%;
+    border-radius: 30px;
+
+}
+.text{
+    background-color: #ffffff;
+        
+}
 h2{
     font-size: 70px;
     justify-content: center;
@@ -17,6 +53,8 @@ h2{
     transform: translateX(-50%);
     animation-duration: 1s;
     animation-name:s;
+    color: azure;
+    z-index: 2;
     
 }
 @keyframes s{
@@ -39,14 +77,9 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     overflow: hidden;   
     transform: translateX(-50%);
+    color:azure;
+    z-index: 2;
     
-}
-nav a:hover{
-    background-color: #00631f;
-    color: darkkhaki;
-    scale: 120%;
-    transition: 0.5s;
-    box-shadow: 0px 0px 5px rgb(0, 66, 16);
 }
 
 
@@ -55,7 +88,7 @@ nav a:hover{
     justify-content: center;
     position: absolute;
     left: 46.3%;
-    top: 55%;
+    top: 65%;   
     transform: scale(1.5);
     padding: 15px 20px;
     border-radius: 50px;
@@ -66,8 +99,11 @@ nav a:hover{
     display: flex;
     background-color: rgb(228, 255, 107);
     box-shadow: 0px 0px 5px rgb(219, 255, 110);
-    color: #00631f;
     z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+
 }
 
 .button:hover{
@@ -83,7 +119,7 @@ nav a:hover{
     padding: 0;
     position: absolute;
     z-index: 0;
-   size: 00px;
+    size: 00px;
 
 }
 .box div:nth-child(1){
@@ -117,74 +153,74 @@ nav a:hover{
     animation: animate 8s linear infinite;
 }
 .box div:nth-child(7){
-    top: 11%;
+    top: 00%;
     left: 1%;
     animation: animate 6s linear infinite;
 }
 .box div:nth-child(8){
-    top: 6%;
+    top: 0%;
     left: 52%;
     animation: animate 5s linear infinite;
 } 
 .box div:nth-child(9){
-    top: 4%;
+    top: 0%;
     left: 45%;
     animation: animate 5s linear infinite;
 }
 .box div:nth-child(10){
-    top: 10%;
+    top: 0%;
     left: 27%;
     animation: animate 4s linear infinite;
 }
 .box div:nth-child(11){
-    top: 10%;
+    top: 0%;
     left: 13%;
-    animation: animate 3s linear infinite;
+    animation: animate 8s linear infinite;
 }
 .box div:nth-child(12){
-    top: 10%;
+    top: 0%;
     left: 87%;
     animation: animate 8s linear infinite;
 }
 .box div:nth-child(13){
-    top: 10%;
+    top: 0%;
     left: 23%;
     animation: animate 7s linear infinite;
 }
 .box div:nth-child(14){
-    top: 10%;
+    top: 0%;
     left: 35%;
     animation: animate 19s linear infinite;
 }
 .box div:nth-child(15){
-    top: 10%;
+    top: 0%;
     left: 17%;
     animation: animate 10s linear infinite;
 }
 .box div:nth-child(16){
-    top: 10%;
+    top: 0%;
     left: 52%;
-    animation: animate 2s linear infinite;
+    animation: animate 4s linear infinite;
 }
 .box div:nth-child(17){
-    top: 10%;
+    top: 0%;
     left: 78%;
-    animation: animate 3s linear infinite;
+    animation: animate 9s linear infinite;
 }
 .box div:nth-child(18){
-    top: 10%;
+    top: 0%;
     left: 70%;
     animation: animate 10s linear infinite;
 }
 .box div:nth-child(19){
-    top: 10%;
+    top: 0%;
     left: 2%;
     animation: animate 21s linear infinite;
 }
 .box div:nth-child(20){
-    top: 10%;
+    top: 0%;
     left: 17%;
-    animation: animate 3s linear infinite;
+    animation: animate 7s linear infinite;
 }
 @keyframes animate{
     0%{

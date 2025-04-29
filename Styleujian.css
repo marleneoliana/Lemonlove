@@ -1,47 +1,305 @@
 body {
     margin: 0;
+    padding: 0;
  }
-img{
-    position:relative;
-    height: 90px;
-    width:100px;
-
-}
 header {
     display: flex;
     top:0;
     width: 100%;
-    background-color: darkgreen;
-    justify-content: center;
+    height: 60px;
+    background-color:#0C3B78;
+    justify-content: space-between;
     position: fixed;
+    z-index: 3;
  }
-nav{
-    padding: 20px;
-}
+
 nav a{
-    padding: 25px 25px;
+    float: left;
     text-align: center;
-    color: #FED766;
+    display: fixed;
+    padding: 20px 25px;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
 }
 nav a:hover{
-    background-color:#f0f637;
-    color: #044d12;
-    box-shadow: 0px 0px 5px rgb(232, 250, 100);
-    transition:0.5s;
-    filter:drop-shadow(0px 0px 5px rgb(255, 246, 161));
-    scale: 130%;
+    background-color:#ffdd00;
+    color: #0c4c50;
+    box-shadow: 0px 0px 5px rgb(236, 255, 139);
+    transition:0.8s;
+    filter:drop-shadow(0px 0px 5px rgb(237, 252, 172));
+    scale:105%;
+    text-align: center;
 }
-.home{
-    height: 800px;
-    background-color: rgb(137, 3, 3);
+section.home{
+    background-color: #376baf;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 620px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
 }
-.about{
-    height:800px
+section.home .boxy {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    padding:10px 15px;
+    align-items: center;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    font-size: larger;
+    background-color:#a3a3a3 ;
+    color: #ffffff;
+    border: #ffffff 3px;
+    border-radius: 20px;
+    transform: translateX(-700%);
+    border-radius: 100%;
+
+}
+section.home .boxy h1{
+    font-size: 80px;
+    margin-top: 40px;
+}
+section.home .boxy h3{
+    font-size: 25px;
+    transform: translateY(-90%);
     
 }
-.Produk{
-    height: 800px;
+
+section.home .boxy img{
+    background-color: #3652a6;
+    border-radius: 100%;
+    align-items: center;
+
+    position: flex;
+    width: 620px;
+    height: 620px;
+    transform: translateX(75%);
+    position:flex;
+    z-index: 0;
+}
+
+
+section.home .boxy img:hover{
+    background-color: #3162ab;
+    color: rgb(225, 255, 0);
+    scale: 105%;
+    transition: 0.5s;
+    box-shadow: 0px 0px 90px rgb(0, 0, 0);
+
+}
+
+
+section.home button{
+    color:#6dcacf;
+    float: left;
+    font-family: monospace;
+    position: absolute;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    transform: scale(1);
+    padding: 10px 20px;
+    left: 46%;
+    top: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(212, 255, 0);  
+    background-color:#1f6e8d;
+}
+section.home button:hover{
+    background-color: #4f7251;
+    color: rgb(225, 255, 0);
+    scale: 120%;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px rgb(0, 66, 16);
+
+}
+.box div {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 0;
+    size: 00px;
+
+}
+.box div:nth-child(1){
+    top: 00%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(2){
+    top: 00%;
+    left: 100%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(3){
+    top: 00%;
+    left: 93%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(4){
+    top: 00%;
+    left: 50%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(5){
+    top: 00%;
+    left: 25%;
+    animation: animate 13s linear infinite;
+}
+.box div:nth-child(6){
+    top: 00%;
+    left: 80%;
+    animation: animate 8s linear infinite;
+}
+.box div:nth-child(7){
+    top: 00%;
+    left: 1%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(8){
+    top: 0%;
+    left: 52%;
+    animation: animate 5s linear infinite;
+} 
+.box div:nth-child(9){
+    top: 0%;
+    left: 45%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(10){
+    top: 0%;
+    left: 27%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(11){
+    top: 0%;
+    left: 13%;
+    animation: animate 8s linear infinite;
+}
+.box div:nth-child(12){
+    top: 0%;
+    left: 87%;
+    animation: animate 8s linear infinite;
+}
+.box div:nth-child(13){
+    top: 0%;
+    left: 23%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(14){
+    top: 0%;
+    left: 35%;
+    animation: animate 19s linear infinite;
+}
+.box div:nth-child(15){
+    top: 0%;
+    left: 17%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(16){
+    top: 0%;
+    left: 52%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(17){
+    top: 0%;
+    left: 78%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(18){
+    top: 0%;
+    left: 70%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(19){
+    top: 0%;
+    left: 2%;
+    animation: animate 21s linear infinite;
+}
+.box div:nth-child(20){
+    top: 0%;
+    left: 17%;
+    animation: animate 7s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform:scale(1)translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(0.5) translateY(600px) rotate(0deg);
+        opacity: 0;
+    
+    }
+}
+
+
+
+
+
+
+.about{
+    height:8000px
+    
+}
+
+
+
+
+
+
+  
+  
+section.Produk{
+    height: 8000px;
     background-color: aliceblue;
+    
+}
+section.Produk .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+section.Produk .container .card{
+    width:400px; 
+    margin:10px; 
+    height: 300px; 
+    padding: 10px 20px; 
+    text-align: center; 
+    border-radius: 20px 20px 20px 20px;
+    background-color:#4b92ef;
+    box-shadow:0px 0px 20px #0C3B78;
+    color: aliceblue;
+}
+section .Produk .card .name{
+    font-family:'impact';
+}
+section.Produk .card .desc{
+    font-family: Caveat;
+
+}
+section.Produk .container .card img{
+    width: 200px;
+    height: 200px;
+    overflow: visible;
+    
+}
+section.Produk .container .card button{
+    color:#ffee00;
+    float: left;
+    font-family: monospace;
+    position: absolute;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(212, 255, 0);  
+    background-color:#1f6e8d;
+
 }
