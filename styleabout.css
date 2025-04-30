@@ -31,3 +31,166 @@ nav a:hover{
     scale:105%;
     text-align: center;
 }
+.drip div {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    border: #ffffff;
+    box-shadow:0px 0px 10px #fff29c;
+    background-color:rgb(252, 255, 70);
+
+}
+.drip div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+.drip div:nth-child(2){
+    top: 70%;
+    left: 50%;
+    animation: animate 11s linear infinite;
+}
+.drip div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+.drip div:nth-child(4){
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+}
+.drip div:nth-child(5){
+    top: 57%;
+    left: 20%;
+    animation: animate 8s linear infinite;
+}
+.drip div:nth-child(6){
+    top: 69%;
+    left: 3%;
+    animation: animate 7s linear infinite;
+}
+.drip div:nth-child(7){
+    top: 75%;
+    left: 15%;
+    animation: animate 5s linear infinite;
+}
+.drip div:nth-child(8){
+    top: 46%;
+    left: 30%;
+    animation: animate 6s linear infinite;
+}
+.drip div:nth-child(9){
+    top: 40%;
+    left: 15%;
+    animation: animate 4s linear infinite;
+}
+.drip div:nth-child(10){
+    top: 90%;
+    left: 10%;
+    animation: animate 13s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform:scale(1)translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(0.5) translateY(600px) rotate(0deg);
+        opacity: 0;
+    
+    }
+}
+
+.Why{
+    background-image: url("aiaiaaaa.jpg");
+    background-color: #ffffff;
+    animation: dripping 50s linear infinite;
+    z-index: 1000;
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    padding-left: 10px;
+}
+
+.Why h1{
+    display: flex;
+    text-align: center;
+    padding:10px 15px;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 40px;
+    transform: translateX(-600px) translateY(-90%);
+    width: 100px;
+    height: 100px;
+    background-color:#ffff74 ;
+    color: #0f396d;
+    border-radius: 20px;
+    border-radius: 100%;
+    position: absolute;
+    
+}
+.Why h3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    padding: 20px;
+    transform: translateX(-70%) translateY(1%);
+    text-align: justify;
+    color: #2d2d73;
+    height: 250px;
+    width: 750px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(213, 251, 89);
+    font-family: Caveat;
+    font-size: 20px;
+}
+.img img{
+    box-shadow: 0px 0px 20px rgb(174, 180, 0);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 520px;
+    height: 520px;
+    left: 100px;
+    transform: translatex(155%) translateY(-20%);
+    z-index: 2;
+
+}
+.img img:hover{
+    
+    scale: 105%;
+    transition: 0.5s;
+    box-shadow: 0px 0px 90px rgb(0, 0, 0);
+
+}
+.Why button{
+    color:#00f2ff;
+    float: left;
+    font-family: monospace;
+    position: absolute;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    transform: scale(1.3);
+    padding: 10px 20px;
+    left: 48%;
+    top: 75%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(212, 255, 0);  
+    background-color:#cfea6c;
+}
+.Why button:hover{
+    background-color: #4f7251;
+    color: rgb(225, 255, 0);
+    scale: 120%;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px rgb(0, 66, 16);
+    
+}

@@ -13,7 +13,7 @@ header {
     position: fixed;
     z-index: 3;
  }
-nav a{
+header nav a{
     float: left;
     text-align: center;
     display: fixed;
@@ -22,7 +22,7 @@ nav a{
     text-decoration: none;
     font-size: 20px;
 }
-nav a:hover{
+header nav a:hover{
     background-color:#ffdd00;
     color: #0c4c50;
     box-shadow: 0px 0px 5px rgb(236, 255, 139);
@@ -65,12 +65,24 @@ section.home .boxy {
 section.home .boxy h1{
     font-size: 80px;
     margin-top: 40px;
+    animation: slidein 1s;
 }
 section.home .boxy h3{
     font-size: 25px;
-    transform: translateY(-95%);
+    transform: translateY(-130%);
+    animation: slidein 1.2s;
 }
 
+@keyframes slidein{
+    from{
+        transform:translateX(-100%);
+
+    }
+
+    to{
+        
+    }
+}
 
 section.home .ad{
     display: flex;
@@ -104,12 +116,11 @@ section.home .button1 button{
     position: absolute;
     outline: none;
     border: none;
-   
     font-weight: bolder;
     transform: scale(1.3);
     padding: 10px 20px;
     left: 40%;
-    top: 55%;
+    top: 65%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(212, 255, 0);  
     background-color:#1f6e8d;
@@ -123,10 +134,9 @@ section.home .button2 button{
     border: none;
     transform: scale(1.3);
     font-weight: bolder;
-    
     padding: 10px 20px;
     left: 30%;
-    top: 55%;
+    top: 65%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(212, 255, 0);  
     background-color:#1f6e8d;
@@ -247,6 +257,70 @@ section.home button:hover{
     left: 17%;
     animation: animate 7s linear infinite;
 }
+
+
+
+.bob div {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color:rgb(240, 255, 165);
+    border: 6px solid rgb(253, 255, 221);
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px white;
+    
+
+}
+.bob div:nth-child(1){
+    top: 00%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+.bob div:nth-child(2){
+    top: 00%;
+    left: 80%;
+    animation: animate 7s linear infinite;
+}
+.bob div:nth-child(3){
+    top: 00%;
+    left: 83%;
+    animation: animate 9s linear infinite;
+}
+.bob div:nth-child(4){
+    top: 00%;
+    left: 50%;
+    animation: animate 12s linear infinite;
+}
+.bob div:nth-child(5){
+    top: 00%;
+    left: 25%;
+    animation: animate 13s linear infinite;
+}
+.bob div:nth-child(6){
+    top: 00%;
+    left: 80%;
+    animation: animate 8s linear infinite;
+}
+.bob div:nth-child(7){
+    top: 00%;
+    left: 1%;
+    animation: animate 6s linear infinite;
+}
+.bob div:nth-child(8){
+    top: 0%;
+    left: 52%;
+    animation: animate 5s linear infinite;
+} 
+.bob div:nth-child(9){
+    top: 0%;
+    left: 45%;
+    animation: animate 5s linear infinite;
+}
+.bob div:nth-child(10){
+    top: 0%;
+    left: 27%;
+    animation: animate 4s linear infinite;
+}
 @keyframes animate{
     0%{
         transform:scale(1)translateY(0) rotate(0);
@@ -262,19 +336,19 @@ section.home button:hover{
   
 ---------------------------
 
-
 section.Produk{
+    position: absolute  ;
     height: 8000px;
     background-color: aliceblue;
-    
+    z-index: 0;
 }
 section.Produk .container{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     padding-top: 100px;
-
 }
+
 section.Produk .container .card{
     width:400px; 
     margin:50px; 
@@ -285,14 +359,27 @@ section.Produk .container .card{
     background-color:#4b92ef;
     box-shadow:0px 0px 20px #0C3B78;
     color: aliceblue;
+    z-index: 0;
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+        scale: 0.9;
+    }
+    to{
+        opacity: 100%;
+        transform: translateX(0px);
+        scale: 1;
+    }
 }
 section.Produk .container .card img{
     width: 200px;
     height: 200px;
     border-radius: 10px;
-    
-    
-    
 }
 section.Produk .container .card .button3 button{
     color:#6dcacf;
@@ -318,7 +405,6 @@ section.Produk .card .desc{
     font-size: 20px;
 }
 
-
 section.Produk .container .card:hover img{
     scale: 120%;
     transform:translatey( -30%) ; 
@@ -334,9 +420,13 @@ section.Produk .container .card:hover .desc{
 section.Produk .container .card:hover .name{
     scale: 190%;
     font-weight: bolder;
-    transform:translatey( -130%) ; 
+    transform:translate( 20%, -130%) ; 
     transition: 0.2s;
     overflow: visible;
+    background-color: rgba(240, 248, 255, 0.456);
+    color: #0C3B78;
+    width: 25  0px;
+    justify-content: center;
 }
 section.Produk .container .card:hover .price{
     scale: 170%;
@@ -351,4 +441,44 @@ section.Produk .container .card:hover .button3{
     overflow: visible;
     align-self: center;
 }
+
+footer{
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 50px 20px;
+}
+footer button{
+    background-color: #70a0df;
+    color: #d4d406;
+    box-shadow: 0px 0px 10px#a3e8ec;
+    font-family: Caveat;
+    border-radius: 20px;
+    border-color: transparent;
+    size: (1.5);
+    padding: 20px 25px;
+    font-size: 20px;
+}
+footer .sosmed button:hover{
+    background-color: #4f7251;
+    color: rgb(76, 83, 25);
+    scale: 120%;
+    transition: 0.5s;
+    border-radius: 20px;
+
+}
+footer .Manager{
+    background-color: #fee53e;
+    color: #4768a0;
+    text-align: center;
+    padding: 50px 20px;
+}
+footer .Manager button:hover{
+    background-color: #4f7251;
+    color: rgb(225, 255, 0);
+    scale: 120%;
+    transition: 0.5s;
+
+}
+
 
