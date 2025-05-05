@@ -132,46 +132,81 @@ nav a:hover{
     border-radius: 20px;
     border-radius: 100%;
     position: absolute;
-    
+    animation: slidein 1.5s;
+
 }
-.Why h3{
+@keyframes slidein{
+    from{
+        transform:translateX(-100%);
+
+    }
+
+    to{
+        
+    }
+}
+
+
+.Why .EYA {
     display: flex;
-    text-align: center;
     align-items: center;
-    
     padding: 20px;
     transform: translateX(-70%) translateY(1%);
-    text-align: justify;
-    color: #2d2d73;
     height: 250px;
     width: 750px;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(213, 251, 89);
+    
+}
+.Why .h33{
     font-family: Caveat;
     font-size: 20px;
+    text-align: justify;
+    color: #9a9aff;
+    text-align: center;
+    font-size:larger;
+    animation: slideinn 2s;
 }
+@keyframes slideinn{
+    from{
+        opacity: -100%;
+        transform:translatey(10%);
+
+    }
+
+    to{
+        
+    }
+}
+
+
 .img img{
     box-shadow: 0px 0px 20px rgb(174, 180, 0);
     border-radius: 20px;
+    padding-bottom: 40px;
+    padding-left:10px ;
+    padding-right:10px ;
+    padding-top:10px ;
+    background-color: white;
     display: flex;
     align-items: center;
     width: 520px;
     height: 520px;
     left: 100px;
-    transform: translatex(155%) translateY(-20%);
+    transform: translatex(150%) translateY(-20%);
     z-index: 2;
 
 }
 .img img:hover{
-    
     scale: 105%;
+    transform: translatex(145%) translateY(-20%);
     transition: 0.5s;
-    box-shadow: 0px 0px 90px rgb(0, 0, 0);
+    box-shadow: 0px 0px 90px rgb(255, 251, 0);
 
 }
 .Why button{
-    color:#00f2ff;
+    color: #cfea6c;
     float: left;
     font-family: monospace;
     position: absolute;
@@ -189,7 +224,7 @@ nav a:hover{
 .Why button:hover{
     background-color: #4f7251;
     color: rgb(225, 255, 0);
-    scale: 120%;
+    scale: 105%;
     transition: 0.5s;
     box-shadow: 0px 0px 5px rgb(0, 66, 16);
     

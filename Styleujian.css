@@ -380,6 +380,7 @@ section.Produk .container .card img{
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    z-index: 2;
 }
 section.Produk .container .card .button3 button{
     color:#6dcacf;
@@ -399,6 +400,7 @@ section.Produk .container .card .button3 button{
 }
 section .Produk .card .name{
     font-family:'impact';
+    z-index: 0;
 }
 section.Produk .card .desc{
     font-family: Caveat;
@@ -411,6 +413,7 @@ section.Produk .container .card:hover img{
     border-radius: 10px;
     transition: 0.2s;
     overflow: visible;
+    z-index: 2;
 }
 section.Produk .container .card:hover .desc{
     scale: 101%;
@@ -425,8 +428,8 @@ section.Produk .container .card:hover .name{
     overflow: visible;
     background-color: rgba(240, 248, 255, 0.456);
     color: #0C3B78;
-    width: 25  0px;
     justify-content: center;
+    z-index: 0;
 }
 section.Produk .container .card:hover .price{
     scale: 170%;
@@ -441,7 +444,15 @@ section.Produk .container .card:hover .button3{
     overflow: visible;
     align-self: center;
 }
+section.Produk .container .card .button3 button:hover{
+    scale: 120%;
+    transition: 0.2s;
+    background-color: #d1ff6d;
+    box-shadow: 0px 0px 20px rgb(222, 231, 168);
+}
 
+
+---------------------------------
 footer{
     background-color: #f4f4f4;
     color: #333;
