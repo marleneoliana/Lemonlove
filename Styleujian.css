@@ -459,30 +459,44 @@ footer{
     text-align: center;
     padding: 50px 20px;
 }
+
+footer .Contain{
+    margin: 10px;
+}
+footer .Contain .sosmed{
+    background-color: white;
+    color:#1b1096 ;
+    text-align: center;
+    padding: 5px 20px;
+}
 footer button{
     background-color: #70a0df;
-    color: #d4d406;
+    color: #ffff21;
     box-shadow: 0px 0px 10px#a3e8ec;
-    font-family: Caveat;
     border-radius: 20px;
     border-color: transparent;
     size: (1.5);
     padding: 20px 25px;
     font-size: 20px;
+    text-decoration: none;
 }
-footer .sosmed button:hover{
+
+footer nav a{ 
+    color: #ffff21;
+    text-decoration: none;
+}
+footer .Contain .sosmed button:hover{
     background-color: #4f7251;
-    color: rgb(76, 83, 25);
     scale: 120%;
     transition: 0.5s;
     border-radius: 20px;
-
 }
 footer .Manager{
     background-color: #fee53e;
     color: #4768a0;
     text-align: center;
     padding: 50px 20px;
+    height: 450px;
 }
 footer .Manager button:hover{
     background-color: #4f7251;
@@ -490,6 +504,23 @@ footer .Manager button:hover{
     scale: 120%;
     transition: 0.5s;
 
+}
+footer .Manager .imas {
+    height: 320px;
+    width: 265px;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 05px;
+    border-radius: 10px;
+    text-align: center;
+    transform: translate(240%);
+    
+}
+footer .imas img{
+    height: 300px;
+    width: 250px;
+    
 }
 
 
