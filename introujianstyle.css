@@ -5,37 +5,7 @@ body{
     background-color: #0C3B78;
     
 }   
-header{
-    display: flex;
-    top:0;
-    width: 100%;
-    height: 60px;
-    background-color: #0C3B78;
-    justify-content: space-between;
-    position: fixed;
-    color: #ffffff;
-}
-nav{
-    padding: 20px;
-}
-nav a{
-    padding: 25px 25px;
-    text-align: center;
-    color: #05642b;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 30px;
-}
-nav a:hover{
-    background-color:#eeff71;
-    color: #0f5c06;
-    box-shadow: 0px 0px 5px rgb(123, 132, 0);
-    transition:0.8s;
-    filter:drop-shadow(0px 0px 5px rgb(134, 120, 0));
-    scale: 130%;
-    border-radius: 30px;
 
-}
 .text{
     background-color: #ffffff;
         
