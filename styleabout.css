@@ -33,61 +33,61 @@ nav a:hover{
 }
 .drip div {
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     border-radius:100%;
     border: #ffffff;
     box-shadow:0px 0px 10px #fff29c;
-    background-color:rgb(252, 255, 70);
+    background-color:rgb(251, 255, 0);
 
 }
 .drip div:nth-child(1){
-    top: 12%;
+    top: 00%;
     left: 42%;
     animation: animate 10s linear infinite;
 }
 .drip div:nth-child(2){
-    top: 70%;
+    top: 00%;
     left: 50%;
     animation: animate 11s linear infinite;
 }
 .drip div:nth-child(3){
-    top: 17%;
+    top: 00%;
     left: 6%;
     animation: animate 9s linear infinite;
 }
 .drip div:nth-child(4){
-    top: 67%;
+    top: 00%;
     left: 10%;
     animation: animate 6s linear infinite;
 }
 .drip div:nth-child(5){
-    top: 57%;
+    top: 00%;
     left: 20%;
     animation: animate 8s linear infinite;
 }
 .drip div:nth-child(6){
-    top: 69%;
+    top: 00%;
     left: 3%;
     animation: animate 7s linear infinite;
 }
 .drip div:nth-child(7){
-    top: 75%;
+    top: 00%;
     left: 15%;
     animation: animate 5s linear infinite;
 }
 .drip div:nth-child(8){
-    top: 46%;
+    top: 00%;
     left: 30%;
     animation: animate 6s linear infinite;
 }
 .drip div:nth-child(9){
-    top: 40%;
+    top: 00%;
     left: 15%;
     animation: animate 4s linear infinite;
 }
 .drip div:nth-child(10){
-    top: 90%;
+    top: 00%;
     left: 10%;
     animation: animate 13s linear infinite;
 }
@@ -103,8 +103,73 @@ nav a:hover{
     }
 }
 
+.bob div {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color:rgb(240, 255, 165);
+    border: 6px solid rgb(253, 255, 221);
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px white;
+    
+
+}
+.bob div:nth-child(1){
+    top: 00%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+.bob div:nth-child(2){
+    top: 00%;
+    left: 80%;
+    animation: animate 7s linear infinite;
+}
+.bob div:nth-child(3){
+    top: 00%;
+    left: 83%;
+    animation: animate 9s linear infinite;
+}
+.bob div:nth-child(4){
+    top: 00%;
+    left: 50%;
+    animation: animate 12s linear infinite;
+}
+.bob div:nth-child(5){
+    top: 00%;
+    left: 25%;
+    animation: animate 13s linear infinite;
+}
+.bob div:nth-child(6){
+    top: 00%;
+    left: 80%;
+    animation: animate 8s linear infinite;
+}
+.bob div:nth-child(7){
+    top: 00%;
+    left: 1%;
+    animation: animate 6s linear infinite;
+}
+.bob div:nth-child(8){
+    top: 0%;
+    left: 52%;
+    animation: animate 5s linear infinite;
+} 
+.bob div:nth-child(9){
+    top: 0%;
+    left: 45%;
+    animation: animate 5s linear infinite;
+}
+.bob div:nth-child(10){
+    top: 0%;
+    left: 27%;
+    animation: animate 4s linear infinite;
+}
+
+
+
+
 .Why{
-    background-image: url("aiaiaaaa.jpg");
+    background-image: url("AIYAYAAYA.jpg");
     background-color: #ffffff;
     animation: dripping 50s linear infinite;
     z-index: 1000;
@@ -189,8 +254,8 @@ nav a:hover{
     background-color: white;
     display: flex;
     align-items: center;
-    width: 520px;
-    height: 520px;
+    width: 490px;
+    height: 500px;
     left: 100px;
     transform: translatex(150%) translateY(-20%);
     z-index: 2;

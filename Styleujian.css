@@ -101,6 +101,7 @@ section.home .ad img{
     transform: translatex(75%);
     z-index: 0;
 }
+
 section.home .ad img:hover{
     background-color: #3162ab;
     scale: 105%;
@@ -457,7 +458,7 @@ footer{
     background-color: #f4f4f4;
     color: #333;
     text-align: center;
-    padding: 50px 20px;
+    padding: 10px 20px;
 }
 
 footer .Contain{
@@ -465,7 +466,7 @@ footer .Contain{
 }
 footer .Contain .sosmed{
     background-color: white;
-    color:#1b1096 ;
+    color:#e6ea00 ;
     text-align: center;
     padding: 5px 20px;
 }
@@ -479,6 +480,7 @@ footer button{
     padding: 20px 25px;
     font-size: 20px;
     text-decoration: none;
+    font-family: 'times new roman';
 }
 
 footer nav a{ 
@@ -486,22 +488,25 @@ footer nav a{
     text-decoration: none;
 }
 footer .Contain .sosmed button:hover{
-    background-color: #4f7251;
+    background-color: #4f5172;
     scale: 120%;
     transition: 0.5s;
     border-radius: 20px;
 }
 footer .Manager{
-    background-color: #fee53e;
-    color: #4768a0;
+    background-image:url("LOMON_FIX-removebg-preview.png") ;
+    background-repeat: 0;
+    background-color: #3451b8;
     text-align: center;
     padding: 50px 20px;
+    font-family: 'times new roman';
     height: 450px;
 }
 footer .Manager button:hover{
-    background-color: #4f7251;
-    color: rgb(225, 255, 0);
+    background-color: #2b2f64;
+    color: rgb(223, 227, 187);
     scale: 120%;
+    font-family: 'times new roman';
     transition: 0.5s;
 
 }
@@ -514,9 +519,10 @@ footer .Manager .imas {
     margin-top: 05px;
     border-radius: 10px;
     text-align: center;
-    transform: translate(240%);
-    
+    transform: translate(210%);  
 }
+
+
 footer .imas img{
     height: 300px;
     width: 250px;
