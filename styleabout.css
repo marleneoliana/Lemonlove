@@ -12,7 +12,7 @@ header {
     justify-content: space-between;
     position: fixed;
     z-index: 3;
- }
+}
 nav a{
     float: left;
     text-align: center;
@@ -22,15 +22,24 @@ nav a{
     text-decoration: none;
     font-size: 20px;
 }
-nav a:hover{
-    background-color:#ffdd00;
-    color: #0c4c50;
-    box-shadow: 0px 0px 5px rgb(236, 255, 139);
+header nav a:hover{
+    background-color:#2760aa;
+    color: #ffffff;
+    border-radius: 10px;
     transition:0.8s;
-    filter:drop-shadow(0px 0px 5px rgb(237, 252, 172));
     scale:105%;
     text-align: center;
 }
+header img{
+    transform: translateX(50px)
+}
+header img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+
+}
+
+
 .drip div {
     position: absolute;
     width: 20px;
